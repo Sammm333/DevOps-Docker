@@ -1,6 +1,6 @@
 // app.js
-const express = require('express');  // Make sure this is the first line
-const app = express();               // Then initialize app
+const express = require('express');  
+const app = express();               
 
 app.get('/', (req, res) => {
   res.send('Hello, World!');
